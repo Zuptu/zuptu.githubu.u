@@ -1,0 +1,38 @@
+.header-color-icon {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    
+    &:hover, &:active {
+      opacity: 0.95;
+    }
+  }
+}
+
+
+
+.header-contact-icon svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: $light;
+  opacity: 0.6;
+  transition: all 300ms;
+
+  &:first-of-type {
+    margin-left: -6px;
+  }
+
+
+  &:hover, :active {
+    opacity: 1; 
+  }
+}
+
+
+
+

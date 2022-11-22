@@ -1,0 +1,23 @@
+@import "../../assets/css/main.css";
+
+#special {
+  top: 0px;
+  right: 0px;
+}
+
+.test, .test2 {
+  width: 90%;
+  left:4px;
+}
+
+img {
+  width: 80px;
+}
+
+.test {
+  top: 3px;
+}
+
+.test2 {
+  bottom: 3px;
+}
